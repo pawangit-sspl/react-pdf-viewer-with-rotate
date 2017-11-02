@@ -15,6 +15,11 @@ export default class PdfPage extends Component {
     this.props.pdf.getPage(this.props.page).then(this.renderPage);
   }
 
+  componentWillReceiveProps(nextProps) {
+    if(nextProps.rotate !== this.props.rotate)
+    this.canvas.style.transform = `rotate(${nextProps.rotate}deg)`;
+  }
+
   renderPage = (pdfPage) => {
     if (pdfPage) {
       const canvasContext = this.canvas.getContext('2d');
