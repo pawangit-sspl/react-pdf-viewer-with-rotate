@@ -1,6 +1,6 @@
 # react-pdf-viewer-with-rotate
 ---
-[![npm version]()](https://badge.fury.io/js/react-pdf-viewer-with-rotate)
+[![npm version]()](https://www.npmjs.com/package/react-pdf-viewer-with-rotate)
 
 `react-pdf-viewer-with-rotate` provides a component for rendering PDF documents using [PDF.js](http://mozilla.github.io/pdf.js/). Written for React 15 and ES2015 using the Airbnb style guide with rotation of document incorporated.
 
