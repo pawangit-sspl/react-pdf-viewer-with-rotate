@@ -1,12 +1,12 @@
 {
-  "name": "react-pdf-js-infinite",
-  "version": "1.2.0",
+  "name": "react-pdf-viewer-with-rotate",
+  "version": "1.0.0",
   "description": "A React component to wrap PDF.js",
   "main": "./lib/index.js",
   "jsnext:main": "./src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/McRipper/react-pdf-js-infinite"
+    "url": "https://github.com/VenkteshV/react-pdf-viewer-with-rotate"
   },
   "scripts": {
     "start": "node server",
@@ -24,12 +24,11 @@
     "pdf",
     "pdfjs"
   ],
-  "author": "Emanuele Barban (http://github.com/McRipper)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/McRipper/react-pdf-js-infinite/issues"
+  "author": "VenkteshV (https://github.com/VenkteshV)",
+  "pull-request": {
+    "url": "https://github.com/VenkteshV/react-pdf-viewer-with-rotate/pulls"
   },
-  "homepage": "https://github.com/McRipper/react-pdf-js-infinite",
+  "homepage": "https://github.com/VenkteshV/react-pdf-viewer-with-rotate",
   "peerDependencies": {
     "react": "^15.5.0 || ~0.14.0",
     "react-dom": "^15.5.0 || ~0.14.0"
@@ -64,7 +63,7 @@
     "rimraf": "2.6.1",
     "webpack": "3.1.0"
   },
-  "npmName": "react-pdf-js-infinite",
+  "npmName": "react-pdf-viewer-with-rotate",
   "npmFileMap": [
     {
       "files": [
