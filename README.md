@@ -1,28 +1,28 @@
-# react-pdf-js-infinite
+# react-pdf-viewer-with-rotate
 ---
-[![npm version](https://badge.fury.io/js/react-pdf-js-infinite.svg)](https://badge.fury.io/js/react-pdf-js-infinite)
+[![npm version]()](https://badge.fury.io/js/react-pdf-viewer-with-rotate)
 
-`react-pdf-js-infinite` provides a component for rendering PDF documents using [PDF.js](http://mozilla.github.io/pdf.js/). Written for React 15 and ES2015 using the Airbnb style guide.
+`react-pdf-viewer-with-rotate` provides a component for rendering PDF documents using [PDF.js](http://mozilla.github.io/pdf.js/). Written for React 15 and ES2015 using the Airbnb style guide with rotation of document incorporated.
 
 ---
 
 Usage
 -----
 
-Install with `npm install react-pdf-js-infinite`
+Install with ` react-pdf-viewer-with-rotate`
 
 Use in your app
 
 ```js
 import React from 'react';
-import PDF from 'react-pdf-js-infinite';
+import PDF from 'react-pdf-viewer-with-rotate';
 
 export default class MyPdfViewer extends React.Component {
 
   render() {
     return (
       <div>
-        <PDF file="somefile.pdf" scale={1.5} />
+        <PDF file="somefile.pdf" scale={1.5} rotate={90}/>
       </div>
     )
   }
