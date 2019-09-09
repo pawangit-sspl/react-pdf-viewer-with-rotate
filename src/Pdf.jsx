@@ -48,9 +48,9 @@ class Pdf extends Component {
     style: PropTypes.object,
   };
 
-  static defaultProps = {
-    scale: 1.0,
-  };
+//   static defaultProps = {
+//     scale: 1.0,
+//   };
 
   static onDocumentError(err) {
     if (err.isCanceled && err.pdf) {
